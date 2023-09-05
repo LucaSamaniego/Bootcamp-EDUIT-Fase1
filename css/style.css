@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    height: 40px;
+}
+
+#ig {
+    height: 40px;
+    margin-top: -3px;
+}
+
+.img-header {
+
+   background-image: url(../assets/home-lg.jpg);
+   width: 100%;
+   height: 450px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   background-position: center;
+
+}
+
+.img-header-colab {
+
+    background-image: url(../assets/colabo-banner.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+ 
+ }
+
+.img-header-somos {
+
+    background-image: url(../assets/somos.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+ }
+
+ .img-header-proyect {
+
+    background-image: url(../assets/proyecto-lg.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+ }
+
+ .img-header-act {
+    background-image: url(../assets/banner-act.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+ }
+
+#div-img {
+    width: 100vh;
+    height: 20px;
+}
+
+#mision {
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(rgba(0, 0, 0, 0), black);
+    position: absolute;
+    bottom: 0;
+    animation: slidein 2s;
+}
+
+h3 {
+    text-align: center;
+}
+
+#animation {
+    animation: slidein 1.5s;
+    width: 100%;
+    font-weight: 700;
+    color: rgb(5, 145, 28);
+    padding-top: 200px;
+    -webkit-text-stroke: 0.5px rgb(252, 252, 252);
+    opacity: 90%;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+}
+
+#sectionprim {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#img-logo-png {
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: wiggle 2s linear infinite;
+}
+
+#text-h2 {
+    text-align: center;
+}
+
+.span1 {
+    color: #1ea31a;
+}
+
+.span2 {
+    color: rgb(52, 52, 190);
+}
+
+#text-mid {
+    color: grey;
+}
+
+
+.img3c {
+    height: 200px;
+    width: 200px;
+}
+
+#img3 {
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    padding-top: 10px ;
+    align-items: center;
+}
+
+#trabajamos {
+    background-color: white;
+}
+
+#info {
+    color: white;
+}
+
+span h6 {
+    color: white;
+}
+
+#subcoment {
+    color: gray;
+}
+
+#divh3{
+    text-align: center;
+    font-size: 100px;
+    color: grey;
+   margin: 20px 0 20px 0;
+}
+
+#div-from {
+    display: flex;
+    align-items: center;
+}
+
+#logo-png {
+    height: 50px;
+    
+}
+
+#cards {
+    animation: slidein 1s;
+}
+
+div .form-control {
+    width: 200%;
+}
+
+#img-p2 {
+    width: 90%;
+}
+
+#sub-banner-text {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+#img-sub-banner{
+background-image: url(../assets/sub-banner-proyect.jpg);
+   height: 450px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   background-position: center;
+}
+
+#parte-proyect {
+    bottom: 0;
+}
+
+.carrousel {
+    width: 90%;
+    max-width: 120em;
+    padding: 2em;
+    color: var(--negro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--blanco);
+    box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+    overflow: hidden;
+  }
+  
+  .carrousel .grande {
+    width: 200%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--negro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--blanco);
+    box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+    padding: 2em;
+    transition: all 0.5s ease;
+    transform: translateX(0%);
+  }
+  
+  .carrousel .img {
+    width: calc( 100% / 2 - 2em);
+    min-height: 10vh;
+    color: var(--negro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--blanco);
+    box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  }
+  
+  .carrousel .puntos {
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carrousel .punto {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    color: var(--negro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--blanco);
+    box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  }
+  
+  .carrousel .punto.activo {
+    background-color: lightblue;
+  }
+
+  .slide {
+    animation:slide2 2s;
+  }
+
+  .slide2 {
+    animation: slide2 3s;
+  }
+
+  .agrandar {
+    animation: agrandar 1s;
+  }
+
+  .agrandar2 {
+    animation: agrandar 2s;
+  }
+  
+  .agrandar3 {
+    animation: agrandar 3s;
+  }
+
+  #separte{
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+  }
+
+  .warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+  }
